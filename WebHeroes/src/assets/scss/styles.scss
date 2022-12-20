@@ -1,0 +1,339 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.cont-uno {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    ///background-attachment: fixed;
+    //width: 100%;
+    //height: 100%;
+    min-height: 850px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 132px;
+    list-style: none;
+    margin-bottom: 75px;
+}
+.logo-et{
+    //flex-grow: 2;
+    //display: flex;
+    margin-left: 123px;
+  }
+  .logo-et{
+    //flex-grow: 2;
+    //display: flex;
+    margin-left: 123px;
+  }
+  @media (max-width: 768px) {
+    .logo-et{
+        margin-left: 0px;
+      }
+}
+#menu{
+    height: 100px;
+    margin-top: 15px;
+    flex-grow: 1;
+    background-color: transparent !important;
+}
+#menu ul{
+    height: 100px;
+    //display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    //margin-right: 123px; 
+}
+#menu ul li{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #fff;
+}
+#menu ul li:hover{
+    color: rgb(235, 48, 48);
+    transition: all ease .3s;
+    cursor: pointer;
+}
+    
+#logo {
+    width: 170px;
+}
+#lupa-ico{
+    width: 28px;
+}
+.caja-texto{
+    display: inline-block;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 85px;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 65%);
+    backdrop-filter: blur(6px);
+}
+@media (max-width: 768px) {
+    .caja-texto{ 
+        //margin-right: 0px;
+        margin-left: 0px
+    }
+    .caja-texto-like{
+        margin-left: 0px
+    }   
+    .caja-texto-dislike{
+        margin-left: 0px
+    }   
+    
+}
+.caja-superior{
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.texto-uno{
+    font-weight: 500;
+    color: #a3a3a3;
+}
+.texto-dos {
+    font-size: 60px;
+}
+.parrafo-caja{
+    font-size: 20px;
+    color: #a3a3a3;
+    font-weight: 300;
+}
+.caja-enlace{
+    color: #fff;
+    font-weight: 100;
+}
+.caja-enlace:hover{
+    color: #fff;
+}
+.caja-masinfo img{
+    color: #fff;
+    width: 20px;
+    margin-right: 5px;
+}
+.pregunta-caja{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.btns-voto{
+    display: inline-block;
+}
+.btn-ent{
+    background: #00ADA7;
+    padding: 25px;
+    text-align: center;
+    border-color: transparent !important;
+}
+.btn-entt{
+    background: #FFA300;
+    padding: 25px;
+    text-align: center;
+    border-color: transparent !important;
+}
+.btn-ent img{
+    width: 40px;
+    pointer-events: none;
+}
+.btn-entt img{
+    width: 40px;
+    pointer-events: none;
+}
+.caja-texto-like{
+    display: inline-block;
+    text-align: left;
+    padding: 25px 74px;
+    margin-left: 85px;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 65%);
+    backdrop-filter: blur(6px);
+}
+.caja-texto-dislike{
+    display: inline-block;
+    text-align: left;
+    padding: 25px 74px;
+    margin-left: 85px;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 65%);
+    backdrop-filter: blur(6px);
+}
+@media (max-width: 768px) {
+    .caja-texto-like{
+        margin-left: 0px
+    }   
+    .caja-texto-dislike{
+        margin-left: 0px
+    }   
+    
+}
+.txt-uno{
+    color: #fff;
+    font-size: 35px;
+}
+.txt-uno span{
+    font-weight: 100;
+}
+.img-c-like{
+    width: 80px;
+}
+.txt-dos{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+.txt-p{
+    color: #fff;
+    font-size: 18px;
+}
+.btn-back{
+    font-size: 16px;
+    background-color: transparent !important;
+    color: white;
+    border-color: #fff;
+    padding: 15px;
+    margin: 0px 111px 0px 111px;
+}
+.marcador{
+    //margin-top: 225px;
+    font-size: 40px;
+    opacity: 1;
+}
+.marcador .marcador-like{
+    background: #00ada7c4;
+}
+.marcador .marcador-dislike{
+    background: #ffa300b8;    
+}
+.graficaLike{
+    background-color: #00ADA7;
+    color: #fff;
+    //transition: all .3s ease;
+}
+.graficaDislike{
+    background-color: #FFA300;
+    color: #fff;
+    //transition: all .3s ease;
+}
+.graficaLike h1{
+    text-align: end;
+}
+.cont-float{
+    margin-top: 30px;
+    //background-color: #ebebeb;
+}
+.cont-float1{
+    background-color: #ebebeb;
+    padding: 15px 15px 5px 15px;
+}
+.txt-banner{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+    
+}
+.txt-banner-dos{
+    font-size: 35px;
+    font-weight: bold;
+}
+.txt-banner-tres{
+    padding: 22px 16px 15px 16px
+}
+.cont-float2{
+    background-color: #ebebeb;
+}
+.til-s{
+    margin-left: 128px;
+}
+@media (max-width: 768px) {
+    .til-s{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 992px) {
+    .til-s{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+.title-super{
+    margin: 40px 0px 40px 0px;
+    //margin-left: 135px;
+    font-weight: 300;
+}
+
+.galeria{
+    text-align: right;
+}
+.galeria1{
+    text-align: left;
+}
+.img1, .img2{
+    margin-bottom: 35px;
+}
+.img1, .img2, .img3, .img4{
+    width: 78%;
+}
+.list-footer{
+    display: flex;
+    list-style: none;
+    font-size: 11px;
+    margin-top: 20px;
+}
+/*.list-footer li{
+    margin: 0px 15px 0px 15px;
+}*/
+.siguenos{
+    margin-top: 15px;
+    text-align: end;
+}
+.text-siguenos{
+    font-size: 11px;
+}
+.facebook{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.facebook, .twitter{
+    width: 30px;
+}
+footer{
+    margin-top: 75px;
+    margin-left: 148px;
+    margin-right: 148px;
+    margin-bottom: 115px;
+    border-top: #000 1px dashed;
+}
+@media (max-width: 768px) {
+
+    footer{
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+ 
+}
+@media (max-width: 992px) {
+
+    footer{
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+ 
+}
+//#header{
+    //background-image: url(../images/iron-man.jpg);
+    //opacity: .7;
+//}

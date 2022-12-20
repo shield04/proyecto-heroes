@@ -1,0 +1,123 @@
+<div class="container">
+  <div class="container cont-uno"
+    [ngStyle]="{'background-image': 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5410539215686274) 100%), url(/assets/images/iron-man-segundo.jpg)'}">
+    <div class="row">
+      <header class="col-xs-12 col-sm-12 col-md-12 header">
+          <div class="logo-et">
+            <img src="assets/images/logo-heroes.png" id="logo" class="" />
+          </div>
+          <nav id="menu" class="">
+            <ul class="row">
+              <li class="col-xs-12 col-sm-12 col-md-2">Heroes Anteriores</li>
+              <li class="col-xs-12 col-sm-12 col-md-2">¿Como Funciona?</li>
+              <li class="col-xs-12 col-sm-12 col-md-2">Iniciar Sesión</li>
+              <li class="col-xs-12 col-sm-12 col-md-2"><img src="assets/images/lupa-icon.svg" id="lupa-ico" class="" /></li>
+            </ul>
+          </nav>
+        
+      </header>
+    </div>
+    <div class="row caja-texto" *ngIf="!isShowDivIf" [hidden]="isShowDivv">
+      <div class="caja-superior col-xs-12 col-sm-12 col-md-12">
+        <span class="texto-uno">
+          Dinos tu opinion sobre <br><span class="texto-dos text-white">Ironman?</span>
+        </span><br><br><br>
+        <p class="parrafo-caja">
+          Lorem Ipsum is simply dummy text<br> of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's
+          standard <br>dummy text ever since the 1500s, when an unknown<br> printer took a galley of type and scrambled it<br> to make a
+          type specimen book.
+        </p>
+        <span class="caja-masinfo"><img src="assets/images/wiki.svg" /><a href="#" class="caja-enlace">Más Información</a></span><br><br>
+        <span class="pregunta-caja">¿Cuál es tu voto?</span><br>
+      </div>
+      <div class="row m-0 p-0">
+        <button class="btn-ent col-6" value="like" (click)="votoLike($event)"><img src="assets/images/like.svg" /></button>
+        <button class="btn-entt col-6" value="dislike" (click)="votoLike($event)"><img src="assets/images/dislike.svg" /></button>
+      </div>
+    </div>
+
+    <div class="caja-texto-like" *ngIf="isShowDivIff" [hidden]="!isShowDiv">
+      <span class="txt-uno"><span>Marvel</span> - Ironman</span><br><br><br>
+      <div class="row">
+        <div class="col-3"><img src="assets/images/cuadrado-like.svg" class="img-c-like"/></div>
+        <div class="col-9">
+          <span class="txt-dos">Tu voto</span><br>
+          <span class="txt-dos">ha sido registrado!</span>
+        </div>
+      </div><br><br>
+      <p class="txt-p">Lorem Ipsum is simply dummy<br> text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard <br>dummy</p><br>
+      <button class="btn-back" (click)="ToReturn()">Volver a votar</button>
+    </div>
+
+    <div class="caja-texto-dislike" *ngIf="isShowDivIfff" [hidden]="!isShowDivvv">
+      <span class="txt-uno"><span>Marvel</span> - Ironman</span><br><br><br>
+      <div class="row">
+        <div class="col-3"><img src="assets/images/cuadrado-dislike.svg" class="img-c-like"/></div>
+        <div class="col-9">
+          <span class="txt-dos">Tu voto</span><br>
+          <span class="txt-dos">ha sido registrado!</span>
+        </div>
+      </div><br><br>
+      <p class="txt-p">Lorem Ipsum is simply dummy<br> text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard <br>dummy</p><br>
+      <button class="btn-back" (click)="ToReturnn()">Volver a votar</button>
+    </div>
+    </div>
+    <div class="container cont-dos">
+      <div class="row">
+        <div #graficaLike class="col-6 graficaLike"></div>
+        <div #graficaDislike class="col-6 graficaDislike"></div>
+      </div>
+    </div>
+    <div class="container cont-float">
+      <div class="row justify-content-center">
+        <div class="col-xs-12 col-sm-12 col-md-2 cont-float1">
+          <p class="txt-banner">Lorem Ipsum<br><span class="txt-banner-dos">IP dummy.</span></p> 
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 cont-float2 ">
+          <p class="txt-banner-tres">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis finibus orci sit amet interdum. Pellentesque a felis non eros pulvinar volutpat.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 til-s">
+            <h1 class="title-super">Super Heroes anteriores</h1>
+          </div>
+        </div>
+        <div class="col-6 galeria">
+          <img src="assets/images/superman.png" class="img1"/>
+        </div>
+        <div class="col-6 galeria1">
+          <img src="assets/images/thor.png" class="img2"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 galeria">
+          <img src="assets/images/batman.png" class="img3"/>
+        </div>
+        <div class="col-6 galeria1">
+          <img src="assets/images/spiderman.png" class="img4"/>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8">
+          <ul class="row list-footer">
+            <li class="col-xs-12 col-sm-12 col-md-4">Terminos y condiciones</li>
+            <li class="col-xs-12 col-sm-12 col-md-4">Politica de tratamiento de datos</li>
+            <li class="col-xs-12 col-sm-12 col-md-4">Contactenos</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 siguenos">
+          <span class="text-siguenos">Siguenos</span>
+          <img src="assets/images/facebook.png" class="facebook" />
+          <img src="assets/images/twitter.png" class="twitter"/>
+        </div>
+      </div>
+    </footer>
+  </div>
+  

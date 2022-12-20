@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="77.079506mm"
+   height="76.852379mm"
+   viewBox="0 0 77.079506 76.852378"
+   version="1.1"
+   id="svg1044"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="lupa-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1046"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="446.59385"
+     inkscape:cy="233.35535"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1041" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(27.243538,-87.014529)">
+    <g
+       id="g2430"
+       inkscape:export-filename="lupa-icon.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <ellipse
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.1;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="path1217"
+         cx="1.7742032"
+         cy="115.85485"
+         rx="26.967741"
+         ry="26.790321" />
+      <rect
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:1.70042;stroke-linecap:square;paint-order:fill markers stroke"
+         id="rect1273"
+         width="6.638557"
+         height="36.393314"
+         x="-85.193558"
+         y="108.37823"
+         ry="0.42332244"
+         transform="matrix(0.67825071,-0.73483058,0.71345511,0.70070094,0,0)" />
+    </g>
+  </g>
+</svg>
