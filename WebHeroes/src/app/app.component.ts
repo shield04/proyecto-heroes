@@ -56,18 +56,22 @@ export class AppComponent implements OnInit {
       this.contporcentt = (this.contadorlike / this.contporcent) * 100;
       var x = Math.round(this.contporcentt);
       
-      if(x == 100){
+      if(x === 100){
         this.renderer2.setStyle(graficaDislike, 'display', "none");
+       // this.renderer2.setStyle(divGrafica, 'display', "block");
+       //this.renderer2.setStyle(divGrafica, 'transition', "all .5s ease-in");
       }else if( x < 100){
         //this.renderer2.setStyle(graficaDislike, 'transition', "all .1s ease");
-        this.renderer2.setStyle(graficaDislike, 'display', "block");
+        this.renderer2.setStyle(divGrafica, 'display', "block");
+        //this.renderer2.setStyle(divGrafica, 'transition', "all .5s ease-in");
        // this.renderer2.setStyle(divGrafica, 'transition', "all .1s ease");
-        this.renderer2.setStyle(divGrafica, 'display', "block");     
+        this.renderer2.setStyle(graficaDislike, 'display', "block");
+        
       }
 
-    
       divGrafica.innerHTML ="<h1>"+x+" %</h1>";
       this.renderer2.setStyle(divGrafica, 'width', x +"%");
+      //this.renderer2.setStyle(graficaDislike, 'display', "none");
 
       this.contporcent = (this.contadordislike + this.contadorlike);
       this.contporcentt = (this.contadordislike / this.contporcent) * 100;
@@ -75,6 +79,7 @@ export class AppComponent implements OnInit {
 
       graficaDislike.innerHTML ="<h1>"+x+" %</h1>";
       this.renderer2.setStyle(graficaDislike, 'width', x+"%");
+      //this.renderer2.setStyle(graficaDislike, 'display', "block");
     
       
     }else if( buttonVale == "dislike"){
@@ -97,11 +102,13 @@ export class AppComponent implements OnInit {
       var x = Math.round(this.contporcentt);
 
 
-      if(x == 100){
+      if(x === 100){
         this.renderer2.setStyle(divGrafica, 'display', "none");
+        //this.renderer2.setStyle(graficaDislike, 'transition', "all .5s ease-in");
       }else if( x < 100){
         //this.renderer2.setStyle(graficaDislike, 'transition', "all .1s ease");
         this.renderer2.setStyle(graficaDislike, 'display', "block");
+        //this.renderer2.setStyle(graficaDislike, 'transition', "all .5s ease-in");
        // this.renderer2.setStyle(divGrafica, 'transition', "all .1s ease");
         this.renderer2.setStyle(divGrafica, 'display', "block");
         

@@ -216,15 +216,27 @@ body {
 .graficaLike{
     background-color: #00ADA7;
     color: #fff;
+    transition: all 0.5s ease-in 0s;
     //transition: all .3s ease;
 }
 .graficaDislike{
     background-color: #FFA300;
     color: #fff;
+    transition: all 0.5s ease-in 0s;
     //transition: all .3s ease;
 }
 .graficaLike h1{
     text-align: end;
+}
+.row-bar-votos{
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+@media (max-width: 768px){
+    .row-bar-votos{
+        flex-wrap: wrap;
+        overflow: visible;
+    }
 }
 .cont-float{
     margin-top: 30px;
